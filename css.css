@@ -1,0 +1,113 @@
+*{
+	box-sizing: border-box;
+}
+html,
+body {
+	font-family: sans-serif;
+    height: 100%;
+	background-color: #39c;
+    margin: 0 auto;
+    border: 5px solid #2b81ac;
+
+}
+.header,
+.footer{
+  color: white;
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+}
+
+ul{
+	list-style: none;
+	font-size: 0;
+	text-align: center;
+	padding: 0;
+	width: 70%;
+	margin: 0 auto;
+	border-left: 2px solid white;
+	border-top: 2px solid white;
+}
+ul li{
+   display: inline-block;
+   font-size: 15px;
+   border-bottom: 2px solid white;
+   border-right: 2px solid white;
+   color: white;
+   padding: 20px;
+}
+.small{
+	width: 25%;
+}
+.medium{
+	width: 50%;
+}
+.large{
+	width: 100%;
+}
+.blue{
+	background-color: #39c;
+}
+.turquoise{
+	background: #3cc;
+}
+.purple{
+	background: #969;
+}
+.red{
+	background: #c24747;
+}
+.orange{
+	background: #e2674a;
+}
+.yellow {
+	background: #fc6;
+}
+.salad{
+	background: #9c9;
+}
+.emerald{
+	background: #699;
+}
+.pink{
+	background: #c69;
+}
+.green{
+	background: #396;
+}
+.violet{
+	background: #669;
+}
+span,
+i{
+	opacity: 0.4;
+}
+ul:hover li{
+	opacity: 0.5;
+}
+ul li:hover{
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
